@@ -1,0 +1,50 @@
+body{
+
+    background: linear-gradient(to right, #19942a, #219e1c);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s ease infinite;
+
+
+}
+
+
+#titulo {
+    
+    text-align: center;
+    margin-top: 20rem;
+
+}
+
+.botoes {
+
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+
+.botoes:hover {
+
+    background-color: #025506;
+
+}
+
+.botoes:focus {
+    
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.contagem-p{
+
+    text-shadow: #45a049;
+    outline: #45a049;
+
+}
